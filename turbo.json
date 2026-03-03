@@ -4,7 +4,7 @@
   "globalPassThroughEnv": ["CI", "OPENCODE_DISABLE_SHARE"],
   "tasks": {
     "typecheck": {
-      "dependsOn": ["^build"]
+      "dependsOn": []
     },
     "build": {
       "dependsOn": ["^build"],
